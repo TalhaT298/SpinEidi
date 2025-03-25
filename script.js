@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
         { amount: '10', color: '#FF6384' },
         { amount: '2', color: '#36A2EB' },
         { amount: '5', color: '#FFCE56' },
-        { amount: '20', color: '#4BC0C0' },
-        { amount: '50', color: '#9966FF' },
-        { amount: '40', color: '#FF9F40' },
+        { amount: '3', color: '#4BC0C0' },
+        { amount: '7', color: '#9966FF' },
+        { amount: '4', color: '#FF9F40' },
         { amount: '6', color: '#8AC249' },
         { amount: '9', color: '#EA5F89' }
     ];
