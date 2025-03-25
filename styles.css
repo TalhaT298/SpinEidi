@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 20px;
-    background-color: #f5f5f5;
+    background: linear-gradient(45deg, #dbdbdb, #9f9f9f); /* Light gray to white gradient */
     box-sizing: border-box;
 }
 
@@ -22,9 +22,10 @@ body {
 }
 
 h1 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #333;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .wheel-container {
@@ -41,7 +42,7 @@ h1 {
     border-radius: 50%;
     position: relative;
     overflow: hidden;
-    border: 8px solid #333;
+    border: 8px solid rgb(0, 0, 0);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     transition: transform 4s cubic-bezier(0.17, 0.67, 0.12, 0.99);
     transform: rotate(0deg);
@@ -92,13 +93,14 @@ h1 {
 button {
     padding: 12px 24px;
     font-size: 18px;
-    background-color: #4CAF50;
+    background: linear-gradient(45deg, #4CAF50, #333); 
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
     margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 
 button:hover {
@@ -115,8 +117,9 @@ button:disabled {
     font-size: clamp(20px, 5vw, 24px);
     font-weight: bold;
     height: 30px;
-    color: #e91e63;
+    color: #000000;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 footer {
